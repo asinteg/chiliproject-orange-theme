@@ -76,7 +76,7 @@ function insertMenuEntry(title, link, insertPos) {
 document.observe("dom:loaded", function() {
 
         // responsive UI stuff
-	includeScript("/chiliproject/themes/asinteg/javascripts/respond.min.js");
+	includeScript("/themes/orange/javascripts/respond.min.js");
     	injectViewportMetaTag();
 	
 	// new footer
